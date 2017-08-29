@@ -1,8 +1,10 @@
 export class SearchModel {
-    items: Array<SearcItemModel>;
+    items: Array<SearchItemModel>;
 }
-export class SearcItemModel {
+
+export class SearchItemModel {
     name: string;
     image: string;
     description: string;
 }
+
